@@ -97,10 +97,14 @@ public class TokoAlbum {
             }
         }
 
+        //membuat objek observer dan oberable
         Toko pesanan = new Toko(albumString);
         Pembeli pembeli = new Pembeli(namaString);
 
+        //menambahkan pembeli kedalam daftar observer
         pesanan.tambahPembeli(pembeli);
+        
+        // memberikan jeda 1000ms dan menampilkan notifikasi
         Thread.sleep(1000);
         pesanan.beriNotifikasi("pesanan kamu sedang diproses");
 
