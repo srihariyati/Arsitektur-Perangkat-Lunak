@@ -11,7 +11,7 @@
 <li>Notifikasi</li>
 <p>Notifikasi yang diberikan kepada pembeli selama proses pengiriman</p>
 <li>Pegemasan</li>
-<p>Berisi jenis tambahan pengemasan agar pesanan dikirim dengan aman</p>
+<p>Berisi jenis tambahan pengemasan pada pesanan</p>
 </ul>
 </ol>
 
